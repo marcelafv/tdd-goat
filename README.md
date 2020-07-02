@@ -5,5 +5,9 @@ virtualenv\Scripts\activate.bat
 ```
 2. Use Django's unit tests
 ```shell script
-python manage.py test
+python manage.py test lists
+```
+3. Run Django's funtional tests
+```shell script
+python manage.py test tests
 ```
